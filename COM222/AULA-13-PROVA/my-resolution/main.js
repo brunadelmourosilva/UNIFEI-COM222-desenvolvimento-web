@@ -1,7 +1,6 @@
 
 let playerOne = 0;
 let playerTwo = 0;
-let countClicks = 0;
 
 const selectPtPlayer1 = document.querySelector("#ptPlayer1");
 const selectPtPlayer2 = document.querySelector("#ptPlayer2");
@@ -42,9 +41,11 @@ btnPlayerTwo.addEventListener('click', incrementScorePlayerTwo);
 const resetPlay = () => {
     selectPtPlayer1.style.color = 'black';
     selectPtPlayer1.innerHTML = 0;
+    playerOne = 0;
 
     selectPtPlayer2.style.color = 'black';
     selectPtPlayer2.innerHTML = 0;
+    playerTwo = 0;
 
     selectWinnerScore.value = 5;
 };
@@ -53,9 +54,9 @@ btnReset.addEventListener('click', resetPlay);
 
 //------------------------
 selectWinnerScore.addEventListener('change', (e) => {
-    countClicks++;
 
-    if(countClicks != 1) {
-        resetPlay(); // TERMINAR
+    // identifica que o jogo encontra-se em andamento
+    if(playerOne != 0 || playerTwo != 0) {
+        resetPlay();
     }
 });

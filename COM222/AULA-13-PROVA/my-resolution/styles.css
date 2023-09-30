@@ -18,7 +18,7 @@ figcaption {
 
 .mainplay {
     display: block;
-    margin: auto;
+    margin: auto; /**/ 
     border: 1px solid black;
     width: 50%;
 }
@@ -35,7 +35,7 @@ select{
 .botoes{
     display: flex;
     justify-content: space-evenly;
-    margin: auto;
+    margin: auto; /**/
     width: 50%;
     border: thick solid black;
     height: 4rem;
