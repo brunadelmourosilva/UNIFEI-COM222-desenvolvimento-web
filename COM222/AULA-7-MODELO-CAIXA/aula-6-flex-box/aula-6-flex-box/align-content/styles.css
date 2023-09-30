@@ -1,0 +1,54 @@
+.caixa{
+    border: 1px solid black;
+    width: 350px;
+    margin: 10px 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+    align-content: space-evenly;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.column-reverse{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    height: 300px;
+    align-content: space-between;
+}
+section div{
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+}
+.div1{
+    background-color: aqua;
+}
+.div2{
+    background-color: rgb(0, 209, 202);
+}
+.div3{
+    background-color: rgb(52, 20, 235);
+}
+.div4{
+    background-color: rgb(0, 59, 147);
+}
+.div5{
+    background-color: rgb(106, 0, 148);
+}

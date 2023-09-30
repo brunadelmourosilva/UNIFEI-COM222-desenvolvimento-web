@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    font-family: 'Alegreya';
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    font-size: 2rem;
+    font-family: 'Alegreya';
+    flex-grow: 1;
+}
+
+figure{
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+figcaption{
+    text-align: left;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    border: thick solid black;
+    height: 4rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.marcador{
+    width: 50%;
+    border: thick inset #8a8a8a;
+}
+
+.selecao{
+    display: flex;
+    justify-content: center;
+}
+
+#btnPlayer1{
+    background-color: green;
+    color: white;
+}
+
+#btnPlayer2{
+    background-color: rgb(36, 36, 246);
+    color: white;
+}
+
+#btnReset{
+    background-color: rgb(248, 74, 74);
+    color: white;
+}
+
+.vencedor {
+    color: green;
+}
+
+.perdedor {
+    color:rgb(211, 4, 4);
+}
+
+select{
+    font-size: 2rem;
+    margin: auto 5%;
+}

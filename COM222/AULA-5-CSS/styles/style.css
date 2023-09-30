@@ -1,0 +1,29 @@
+/* internal style */
+
+
+.minha-classe{
+    color: brown;
+    text-align: right;
+}
+
+#meu-id{
+    color: darkorange;
+    border: 1px solid black;
+    padding: 10px 15px 20px 10px; /* sentindo horário */
+}
+
+p[id]{
+    color: pink;
+}
+
+p{
+    color: rgb(124, 128, 0);
+    font-weight: 800;
+    text-decoration: solid underline red;
+    /*color components: rgb, hsl, hexa*/
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+}

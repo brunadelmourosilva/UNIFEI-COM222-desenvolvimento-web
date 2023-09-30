@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcador de Pontuação</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+</head>
+<body>
+    <figure>
+        <img src="https://th.bing.com/th/id/R.5cc73beabe15f1aa456e5a2d7225137a?rik=Vj750AQLStROkw&pid=ImgRaw&r=0" alt="">
+        <figcaption>Marcador de Pontuação Magic the Gathering</figcaption>
+    </figure>
+    <section class="marcador">
+        <h1><span id="ptPlayer1">0</span> a <span id="ptPlayer2">0</span></h1>
+        <div class="selecao">
+            <p>Escolha a Pontuação Vitoriosa</p>
+            <select  id="ptVitoriaSelect">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+            </select>
+        </div>
+        <p>Use os botões para marcar a pontuação vitoriosa</p>
+    </section>
+    
+    <section class="botoes">
+        <button id="btnPlayer1">Jogador 1</button>
+        <button id="btnPlayer2">Jogador 2</button>
+        <button id="btnReset">Reiniciar</button>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

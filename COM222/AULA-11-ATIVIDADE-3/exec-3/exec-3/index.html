@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática Básica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>Jogo da Matemática</h1>
+    
+    <section class="game-area">
+        <figure>
+            <img src="fig/math.png" alt="Figura de Matemática">
+        </figure>
+        <section class="game-pergunta">
+            <p id="idAreaEquacao" class="hidden">---------------</p>
+            <button id="btnGerarQ">Gerar Equação</button>
+            <button id="btnValidarRes">Validar Resposta</button>
+        </section>
+        <section class="game-resposta">
+            <label for="resposta">Insira sua resposta</label>
+            <input type="number" name="resposta" id="resposta" placeholder="Resposta">    
+        </section>
+        <p id="idAreaResp" class="hidden">------------------</p>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

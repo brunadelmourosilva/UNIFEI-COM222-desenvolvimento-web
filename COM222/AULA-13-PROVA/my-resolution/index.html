@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Game</title>
+</head>
+<body>
+
+    <main>
+
+        <figure>
+            <img src="hearthstone.webp" alt="Foto ilustrativa do logo do Hearthstone">
+            <figcaption>Marcador de pontuação Hearthstone</figcaption>
+        </figure>
+
+        <section class="mainplay">
+
+            <h1>
+                <span id="ptPlayer1">0</span> a <span id="ptPlayer2">0</span>
+            </h1>
+
+            <div class="selecao">
+                <p>Escolha a Pontuação Vitoriosa</p>
+                <select id="ptVitoriaSelect">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                </select>
+            </div>
+            <p>Use os botões para marcar a pontuação vitoriosa</p>
+        </section>
+
+        <section class="botoes">
+            <button id="btnPlayer1">Jogador 1</button>
+            <button id="btnPlayer2">Jogador 2</button>
+            <button id="btnReset">Reiniciar</button>
+        </section>
+
+        <script src="main.js"></script>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+.game-area{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 1rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.game-pergunta{
+    text-align: center;
+}
+
+.game-resposta{
+    text-align: center;
+}
+
+#idAreaResp{
+    text-align: center;
+}
+.hidden{
+    color: #0000;
+}
+figure{
+    margin: 0 auto;
+}
+
+img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+button, input{
+    border-radius: 1rem;
+    height: 1.4rem;
+    font-size: 1.2rem;
+}
+
+input{
+    text-align: center;
+}
+
+button{
+    height: 2rem;
+}
+
+.respCerta{
+    color:green;
+}
+
+.respErrada{
+    color: red;
+}
+label{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 2rem;
+    border: 1px dashed black;
+    border-radius: 1rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

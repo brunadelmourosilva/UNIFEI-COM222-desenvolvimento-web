@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando com forms</title>
+</head>
+<body>
+
+    <form action="/search" method="get">
+
+        <div>
+            <label for="username">Username</label> <!--for tied by the id attribute-->
+            <input type="text" placeholder="username" id="username" name="username"> <!--name is query parameter do build the endpoint-->
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" placeholder="password" id="password" name="password">    
+        </div>
+
+        <div>
+            <label for="idade">Digite sua idade</label>
+            <input type="number" placeholder="idade" id="idade" name="idade">    
+        </div>
+        
+        <button>Submit</button>
+
+    </form>
+    
+</body>
+</html>

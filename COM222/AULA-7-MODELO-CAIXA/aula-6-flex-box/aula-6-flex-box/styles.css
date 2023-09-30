@@ -1,0 +1,43 @@
+.exemplo{
+    /* Valor padrão. O eixo principal é horizontal, da esquerda para a direita */
+    flex-direction: row;
+    /* O eixo principal é horizontal, da direta para a esquerda */
+    flex-direction: row-reverse;
+    /* O eixo principal é vertical (coluna), de cima para baixo */
+    flex-direction: column;
+    /* O eixo principal é vertical (coluna), de baixo para cima */
+    flex-direction: column-reverse;
+
+
+    /* Alinhamento padrão, com os elementos posicionados de acordo com o início do eixo principal  */
+    justify-content: flex-start;
+    /* Elementos posicionados de acordo com o fim do eixo principal  */
+    justify-content: flex-end;
+    /* Elementos centralizados no eixo principal  */
+    justify-content: center;
+    /* Elementos com o espaço distribuído ao redor  */
+    justify-content: space-around;
+    /* Elementos com o espaço distribuído entre os elementos  */
+    justify-content: space-between;
+    /* Elementos com o espaço distribuído igualmente entre os elementos  */
+    justify-content: space-evenly;
+
+    /* Valor padrão. Os elementos não passam para proxima linha/coluna */
+    flex-wrap:nowrap ;
+    /* Os elementos passam para proxima linha/coluna na mesma direção do eixo principal */
+    flex-wrap: wrap;
+    /* Os elementos passam para proxima linha/coluna na direção contrária ao eixo principal */
+    flex-wrap: wrap-reverse;
+
+    /* Valor padrão. Alinha os elementos a partir do início do eixo transversal  */
+    align-items: flex-start;
+    /* Alinha os elementos a partir do fim do eixo transversal  */
+    align-items: flex-end;
+    /* Centraliza os elementos no eixo transversal  */
+    align-items: center;
+    /* Alinhas os elementos no eixo transversal de acordo com a base do conteúdo  */
+    align-items: baseline;
+
+ 
+
+}
