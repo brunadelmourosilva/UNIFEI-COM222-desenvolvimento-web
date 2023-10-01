@@ -12,7 +12,7 @@ const generateEquation = () => {
 
     firstValue = Math.floor(Math.random() * 10).toString();
     secondValue = Math.floor(Math.random() * 10).toString();
-    operation = Math.floor(Math.random() * operations.length)
+    operation = Math.floor(Math.random() * operations.length);
     
     const equation = firstValue.concat(" ", operations[operation], " ", secondValue);
 
