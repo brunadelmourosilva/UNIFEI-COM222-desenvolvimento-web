@@ -1,4 +1,3 @@
-
 let playerOne = 0;
 let playerTwo = 0;
 
@@ -11,7 +10,7 @@ const btnPlayerOne = document.querySelector("#btnPlayer1");
 
 const incrementScorePlayerOne = () => {
     playerOne += 1;
-    selectPtPlayer1.innerHTML = playerOne;
+    selectPtPlayer1.innerText = playerOne;
 
     if(playerOne === Number(selectWinnerScore.value)) {
         selectPtPlayer1.style.color = 'green';
@@ -38,13 +37,16 @@ const incrementScorePlayerTwo = () => {
 btnPlayerTwo.addEventListener('click', incrementScorePlayerTwo);
 
 // -----------------------
+
+const btnReset = document.querySelector("#btnReset");
+
 const resetPlay = () => {
     selectPtPlayer1.style.color = 'black';
-    selectPtPlayer1.innerHTML = 0;
+    selectPtPlayer1.innerText = 0;
     playerOne = 0;
 
     selectPtPlayer2.style.color = 'black';
-    selectPtPlayer2.innerHTML = 0;
+    selectPtPlayer2.innerText = 0;
     playerTwo = 0;
 
     selectWinnerScore.value = 5;

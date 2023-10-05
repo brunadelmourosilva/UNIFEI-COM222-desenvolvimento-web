@@ -1,0 +1,34 @@
+
+body{
+    text-align: center;
+}
+
+.main-dash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+img{
+    width: 200px;
+}
+
+.buttons{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.show-value{
+    border: 1px dashed black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.resposta{
+    margin-bottom: 12px;
+}
