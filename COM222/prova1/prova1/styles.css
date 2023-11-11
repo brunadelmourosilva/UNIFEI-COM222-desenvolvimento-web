@@ -1,0 +1,61 @@
+body{
+    font-family: 'Comme', sans-serif;
+    text-align: center;
+}
+
+header{
+    font-weight: bold;
+}
+
+footer{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input{
+    border-color: black;
+    border-radius: 12px;
+    width: 20%;
+}
+
+.pag-ops{
+    display: flex;
+    justify-content: center;
+
+     
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pag-botoes{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.pag-igual{
+    display: flex;
+    justify-content: center;
+}
+
+.botoes{
+    margin-right: 12px;
+    width: 15%;
+    background-color: rgba(69, 106, 130, 0.639);
+    border-radius: 12px;
+    border-color: black;
+}
+
+.pag-resposta{
+    font-weight: bold;
+}
+
+.hidden{
+    color: transparent;
+}
+
+#operacao{
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@200&display=swap" rel="stylesheet">
+
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <header>
+        <p>Calculadora Mágica</p>
+    </header>
+
+    <section class="pag-ops">
+
+            <div>
+                <label for="op1">OP1</label>
+                <input name="op1" id="op1" type="text">
+            </div>
+
+            <div>
+                <p id="operacao">+</p>
+            </div>
+
+            <div>
+                <label for="op2">OP2</label>
+                <input name="op2" id="op2" type="text">
+            </div>
+
+    </section>
+
+    <section class="pag-botoes">
+
+        <button class="botoes" id="opSoma" type="submit">+</button>
+
+        <button class="botoes" id="opSub" type="submit">-</button>
+
+        <button class="botoes" id="opMulti" type="submit">*</button>
+
+    </section>
+
+    <section class="pag-igual">
+        <button class="botoes" id="opIgual" type="submit">=</button>
+    </section>    
+
+    <section class="pag-resposta">
+        <div>
+            <p>Resultado: <span class="hidden" id="resultado">---</span></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            Feito com &hearts; por <a href="https://github.com/brunadelmourosilva?tab=repositories" target="_blank">Minha Página</a>
+        </p>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
